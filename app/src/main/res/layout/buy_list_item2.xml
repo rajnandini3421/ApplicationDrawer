@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:padding="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REJECTED"
+                android:padding="3dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/rejected_txtview_background"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="4">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="4">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                <TextView
+                    android:padding="2dp"
+                    android:textSize="16dp"
+                    android:text="RCOM"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:padding="2dp"
+                        android:textSize="13dp"
+                        android:text="NSE"
+                        android:layout_marginLeft="3dp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/GreyColor"
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:textSize="11dp"
+                        android:text="BUY"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#03bcbc"
+                        android:background="@drawable/buy_txtview_background"
+                        android:paddingLeft="7dp"
+                        android:paddingRight="7dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="3dp"
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="12dp"
+                        android:textSize="14dp"
+                        android:padding="2dp"
+                        android:text="14:13:22"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/GreyColor"
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="12dp"
+                        android:textSize="14dp"
+                        android:padding="2dp"
+                        android:text="CNC"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/GreyColor"
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:padding="7dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/arrow_upward"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/textViewName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="2dp"
+                        android:text="0.0"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:textSize="16dp"
+                        android:textColor="@color/GreyColor"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:id="@+id/textView_percentage1"
+                        android:textSize="14dp"
+                        android:padding="2dp"
+                        android:text="Qty :"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:textColor="#b3b4b5"
+
+                        />
+                    <TextView
+                        android:id="@+id/textView_percentage2"
+                        android:textSize="14dp"
+                        android:padding="2dp"
+                        android:text="0/1"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2D009688"
+            android:padding="3dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>

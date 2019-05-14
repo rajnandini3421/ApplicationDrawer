@@ -19,6 +19,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".Order_History_Activity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".Holdings_Activity"
+            android:label="@string/app_name" >
+        </activity>
+
+
+
     </application>
 
 </manifest>

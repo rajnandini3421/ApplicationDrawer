@@ -4,20 +4,25 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_first_layout"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="First Layout" />
+            android:icon="@drawable/binocular_black"
+            android:title="Marketwatch" />
         <item
             android:id="@+id/nav_second_layout"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Second Layout" />
+            android:icon="@drawable/orders"
+            android:title="Orders" />
         <item
             android:id="@+id/nav_third_layout"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Third Layout" />
+            android:icon="@drawable/portfolio"
+            android:title="Portfolio" />
+
         <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/notification"
+            android:title="Notifications" />
+      <!--  <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Tools" />-->
     </group>
 
     <item android:title="Communicate">

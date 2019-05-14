@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="8dp"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name :"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#11093f"
+                />
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:textSize="14dp"
+                android:textColorHint="@color/HintColor"
+                android:padding="10dp"
+                android:background="@drawable/editext_style"
+                android:lines="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Middle Name :"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#11093f"
+                />
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="Middle Name"
+                android:textSize="14dp"
+                android:textColorHint="@color/HintColor"
+                android:padding="10dp"
+                android:background="@drawable/editext_style"
+                android:lines="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Name :"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#11093f"
+                />
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:textSize="14dp"
+                android:textColorHint="@color/HintColor"
+                android:padding="10dp"
+                android:background="@drawable/editext_style"
+                android:maxLines="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="84dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#11093f"
+                />
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="abc@a.com"
+                android:textSize="14dp"
+                android:textColorHint="@color/HintColor"
+                android:padding="10dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/editext_style"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send OTP"
+                android:textColor="#ff0d00"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="53dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No :"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#11093f"
+                />
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="Mobile NUmber"
+                android:textSize="14dp"
+                android:textColorHint="@color/HintColor"
+                android:padding="10dp"
+                android:inputType="number"
+                android:background="@drawable/editext_style"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send OTP"
+                android:textColor="#ff0d00"
+                android:textSize="12dp"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username :"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#11093f"
+                />
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textSize="14dp"
+                android:textColorHint="@color/HintColor"
+                android:padding="10dp"
+                android:background="@drawable/editext_style"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="36dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password  :"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textColor="#11093f"            />
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="14dp"
+                android:textColorHint="@color/HintColor"
+                android:padding="10dp"
+                android:background="@drawable/editext_style"
+                android:inputType="textPassword"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:weightSum="1"
+            android:layout_marginLeft="0dp"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="46dp"
+                android:text="Confirm Password :"
+                android:textAlignment="center"
+                android:textColor="#11093f"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:layout_marginLeft="8dp"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:textSize="14dp"
+                android:textColorHint="@color/HintColor"
+                android:padding="10dp"
+                android:background="@drawable/editext_style"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="SUBMIT"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/submit_button"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account yet?"
+                android:textSize="15dp"
+                android:textColor="#11093f"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:textSize="15dp"
+                    android:text="Login"
+                    android:textColor="#c10c21"
+                    android:id="@+id/textView_signup"
+                    />
+
+                <View
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="20dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/textView_signup"
+                    android:textColor="#c10c21"
+                    />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

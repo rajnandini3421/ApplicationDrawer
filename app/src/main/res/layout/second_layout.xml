@@ -1,17 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
 
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Text2"
+        android:text="open Order History"
         android:textAlignment="center"
         android:gravity="center"
         android:layout_margin="20dp"/>
 
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open Holdings"
+        android:layout_marginTop="50dp"
+        android:layout_margin="50dp"
+        />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="100dp"
+        android:layout_margin="100dp"
+        />
+
+    <TextView
+    android:id="@+id/signup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Signup"
+    android:layout_margin="150dp"
+    />
 
 
 </RelativeLayout>

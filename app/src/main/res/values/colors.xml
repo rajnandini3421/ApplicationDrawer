@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#3f92b5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="HintColor">#208479</color>
+    <color name="HintColor">#f92aa698</color>
+    <color name="DarkBlue">#11093f</color>
+    <color name="GreyColor">#b3b4b5</color>
+    <color name="DarkRed">#c10c21</color>
+    <color name="RedTextColor">#fc2020</color>
+
 </resources>
